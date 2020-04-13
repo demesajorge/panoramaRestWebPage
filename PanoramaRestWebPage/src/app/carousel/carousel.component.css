@@ -1,0 +1,29 @@
+
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    left: -35%;
+}
+
+.slide-caption {
+    color: white;
+    animation: slide-left 5s;
+  }
+
+.slide-caption-title {
+    color: white;
+    opacity: 1; 
+    transition: opacity 2s;
+}
+
+  @keyframes slide-left {
+    from {
+      margin-left: 10%;
+      width: 30%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
